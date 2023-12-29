@@ -68,7 +68,7 @@
 			<execution>
 				<id>attach-test-sources</id>
 				<goals>
-					<goal>war</goal>
+					<goal>test-jar</goal>
 				</goals>
 			</execution> 
 		</executions>
