@@ -6,6 +6,7 @@
 	<groupId>anji</groupId>
 	<artifactId>setup</artifactId>
 	<packaging>jar</packaging>
+	<version>1</version>
 	
 
 	<properties>
