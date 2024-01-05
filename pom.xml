@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>com.cloudwithraghu</groupId>
-	<artifactId>devops</artifactId>
+	<groupId>com.infosys</groupId>
+	<artifactId>time</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.0-dev</version>
+	<version>1.0</version>
 	
 
 	<properties>
