@@ -6,7 +6,7 @@
 	<groupId>com.cloudwithraghu</groupId>
 	<artifactId>devops</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.0</version>
+	<version>1.0.0-dev</version>
 	
 
 	<properties>
