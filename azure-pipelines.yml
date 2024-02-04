@@ -18,15 +18,15 @@ steps:
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
+    mavenAuthenticateFeed: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-- task: CopyFiles@2
+
+- task: UniversalPackages@0
+  displayName: Publish a Universal Package
   inputs:
-    Contents: '**'
-    TargetFolder: '$(build.artifactstagingdirectory)'
-    
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
+    command: publish
+    publishDirectory: '$(Build.ArtifactStagingDirectory)'
+    vstsFeedPublish: 'maven-build/feed1'
+    vstsFeedPackagePublish: 'drop'
+    packagePublishDescription: 'My Artifact'
