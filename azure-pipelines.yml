@@ -27,6 +27,6 @@ steps:
   inputs:
     command: publish
     publishDirectory: '$(Build.ArtifactStagingDirectory)'
-    vstsFeedPublish: 'maven-build/feed1'
+    vstsFeedPublish: 'maven-build/HDFC'
     vstsFeedPackagePublish: 'drop'
     packagePublishDescription: 'My Artifact'
